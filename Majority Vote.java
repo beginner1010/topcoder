@@ -1,3 +1,9 @@
+/*
+This is a very interesting. The main task of this problem is to find a majority among a very long list in a memory efficient way.
+We can use Majority Vote problem that finds the majority in O(1) memory consumption.
+I found this solution very useful for different settings (e.g. streaming settings), easy to implement, and very efficient. 
+*/
+
 public class EllysPairing {
 	public int getMax(int M, int[] count, int[] first, int[] mult, int[] add) {
 		int N = count.length ;
